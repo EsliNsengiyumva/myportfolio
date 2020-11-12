@@ -1,0 +1,290 @@
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title> Home Page</title>
+        <!-- Load an icon library -->       
+
+       <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+       <link rel="stylesheet" type="text/css" href="../css/styles.css">
+       <script>
+        window.onload = function() {
+        
+        var dataPoints = [];
+        
+        var chart = new CanvasJS.Chart("chartContainer", {
+            animationEnabled: true,
+            theme: "light2",
+            title: {
+                text: "Daily Sales Articles"
+            },
+            axisY: {
+                title: "Articles",
+                titleFontSize: 24,
+                includeZero: true
+            },
+            data: [{
+                type: "column",
+                yValueFormatString: "#,### Article",
+                dataPoints: dataPoints
+            }]
+        });
+        
+        function addData(data) {
+            for (var i = 0; i < data.length; i++) {
+                dataPoints.push({
+                    x: new Date(data[i].date),
+                    y: data[i].units
+                });
+            }
+            chart.render();
+        
+        }
+        
+        $.getJSON("https://canvasjs.com/data/gallery/javascript/daily-sales-data.json", addData);
+        
+        }
+        </script>
+            
+
+    </head>   
+    <body> 
+
+       
+      <div class="divHeader"> 
+        <div class="logDiv">
+           <img src="../images/crone.png" alt="Girl in a jacket" width="98" height="112" >
+          <div class="preno"><h5><p>Esli</p></h5></div>
+          <div class="nom"><h3>Nsengiyumva</h3></div>
+        </div>
+         <div class="menuDiv">
+              
+                     
+                       <div class="container">
+                          <div class="nav-wrapper">
+     
+                         <div class="left-side">
+     
+                             <div class="nav-link-wrapper">
+                                 <a href="../pages/home.html">Home</a>
+                             </div>
+                             <div class="nav-link-wrapper">
+                                 <a href="../pages/about.html">About</a>
+                             </div>
+                             <div class="nav-link-wrapper">
+                                 <a href="../pages/portfolio.html">Portfolio</a>
+                             </div>
+                             <div class="nav-link-wrapper">
+                                 <a href="../pages/blog.html">Blog</a>
+                             </div>
+                             <div class="nav-link-wrapper">
+                                 <a href="../pages/contact.html">Contact</a>
+                             </div>
+                             
+                            </div>
+                          </div> 
+                        </div>
+
+                    
+
+
+         </div>
+
+         
+         
+         <div>
+             <button type="button " class="buttonLogin">Login</button>
+             <button type="button" class="buttonShare">Share</button>
+         
+         </div>
+        <div>
+
+            
+        </div>
+       
+
+
+     <div class="profileIndexForm">
+       <div class="backgroundPhoto">    </div>
+       <label class="labelAdmin">Administrator</label>
+       <label class="labelFeature">Feautures</label>
+       <hr class="horizontalLine">
+       <label class="labelExtras">EXTRAS</label>
+       <hr class="horizontalLine2">
+       <label class="labelItems">Items</label>
+       <label class="labelUsers">Users</label>
+       <label class="labelLogin">Logout</label>
+       <Label class="labelRegister">Register</Label> 
+     <div class="loginImage">
+        <img src="../images/login ima.jpg" alt="login" width="30" height="35" >
+     </div>
+     <div class="manImage">
+        <img src="../images/man image.jpg" alt="login" width="30" height="35" >
+     </div>
+     <div class="itemImage">
+        <img src="../images/items.jpg" alt="login" width="30" height="35" >
+     </div>
+     <div class="userImage">
+        <img src="../images/users.png" alt="login" width="30" height="35" >
+     </div>
+    </div>
+     <div class="divVisitors ">  </div>
+     <label class="visit">Visitors</label>
+            <label class="number"> 1,456,664</label>
+            <hr class="lineRed">
+            <div class="point">
+                <img src=" ../images/points1.png" width="38" height="39" alt="login">
+           </div>
+     <div class="divSubscription">     </div>
+            <label class="visit2">Users Subscribed</label>
+            <label class="number2"> 56,378</label>
+            <hr class="lineBlue">
+            <div class="point2">
+                <img src=" ../images/points1.png" width="38" height="39" alt="login">
+            </div>
+     <div class="divProfit">     </div>
+            <label class="visit3">Articles Avairable</label>
+            <label class="number3"> 2,546,630</label>
+            <hr class="lineGreen">
+            <div class="point3">
+                <img src=" ../images/points1.png" width="38" height="39" alt="login">
+            </div>
+     <div class="divDailySales"> 
+        
+    </div>
+     <label class="visit4">Daily Comments</label>
+            <label class="number4"> 253,254</label>
+            <hr class="lineViole">
+            <div class="point4">
+                <img src=" ../images/points1.png" width="38" height="39" alt="login">
+            </div>
+
+     <div class="divSales">
+
+        <div id="chartContainer" style="height: 300px; width: 100%;"></div>
+        <script src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
+        <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+     </div>
+
+     <div class="userComment"><p>Users Commented</p>
+    
+    
+        <div class="w3-container">
+            <h2>Bordered Table</h2>
+            <p>The w3-bordered class adds a bottom border to each table row:</p>
+          
+            <table class="w3-table w3-bordered">
+              <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+              
+              </tr>
+              <tr>
+                <td>Jill</td>
+                <td>Smith</td>
+                <td>50</td>
+              </tr>
+              <tr>
+                <td>Eve</td>
+                <td>Jackson</td>
+                <td>94</td>
+              </tr>
+             
+            </table>
+          </div>
+    
+    
+    </div>
+
+
+
+     <div class="stockStatus bar">
+        <div class="w3-container bar ">
+            <h2>Article Status</h2>
+                     
+            <table class="w3-table w3-bordered">
+              <tr>
+                <th>#ID</th>
+                <th>Article</th>
+                <th>Priority</th>
+                <th>Status</th>
+                <th>Progress</th>
+              </tr>
+              <tr>
+                <td>012</td>
+                <td>Beauty</td>
+                <td>High</td>
+                <td>In Progress</td>
+                <td>50%</td>
+              </tr>
+              <tr>
+                <td>452</td>
+                <td>Shop Laptops & Tablets</td>
+                <td>High</td>
+                <td>In Progress</td>
+                <td>50%</td>
+              </tr>
+              <tr>
+                <td>454</td>
+                <td>Beauty picks</td>
+                <td>Normal</td>
+                <td>Complete</td>
+                <td>50%</td>
+              </tr>
+              <tr>
+                <td>79</td>
+                <td>Jackson</td>
+                <td>Normal</td>
+                <td>In Progress</td>
+                <td>50%</td>
+              </tr>
+              <tr>
+                <td>24</td>
+                <td>Johnson</td>
+                <td>High</td>
+                <td>Normal</td>
+                <td>50</td>
+              </tr>
+            </table>
+          </div>
+     </div>
+
+     <div class="footerFull">
+        <div class="row">
+            <div class="column">
+             
+              <ul style="list-style: none;">
+                <li>New Articles</li>
+                <li>Articles by quater</li>
+              </ul>
+            </div>
+            
+            <div class="column">
+                <ul style="list-style: none;">
+                    <li>Contact Us</li>
+                    <li>Sign Up</li>
+                    
+                  </ul>
+            </div>
+            
+            <div class="column">
+               
+                 <ul style="list-style: none;">
+                    <li>Number of Question  Pending</li>
+                    <li>Number of Questions responded </li>
+                    
+                  </ul>
+                
+            </div>
+            <div class="column">
+
+                <img src="../images/linkedin.png" width="38" height="39" alt="login"  class="position">
+                <img src=" ../images/instagram.png" width="38" height="39" alt="login">
+                <img src=" ../images/facebook.png" width="38" height="39" alt="login">
+                <img src=" ../images/twitter.png" width="38" height="39" alt="login">
+                <img src=" ../images/gmail.png" width="38" height="39" alt="login">
+
+            </div>
+          </div>
+        </div>
+    </body>
+</html>
