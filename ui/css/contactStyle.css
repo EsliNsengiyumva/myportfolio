@@ -1,0 +1,583 @@
+.body {
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  
+  .nav-wrapper > .left-side > div{
+    margin-right:20px;
+    font-size:0.9em;
+    text-transform:uppercase;
+    left: 726px;
+  top: 71px;
+  
+  font-family: Rockwell;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+    
+   }
+  
+  
+  .nav-wrapper{
+    display:flex;
+    justify-content: space-between;  
+    padding:38px;
+  
+  }
+  
+  .left-side{
+    display:flex;
+   }
+   
+   .nav-link-wrapper{
+     height:22px;
+     border-bottom:1px solid transparent;
+     transition:border-bottom 0.5s;
+   
+   }
+  
+   .nav-link-wrapper a{
+     color:#8a8a8a;
+     text-decoration:none;
+     transition:color 0.s;
+   
+   }
+  
+  
+   .nav-link-wrapper:hover{
+     border-bottom:1px solid rgb(53, 53, 109);
+  }
+  .nav-link-wrapper a:hover{
+     color:rgb(53, 53, 109);
+  }
+  
+  .stockStatus{
+    position: absolute;
+  width: 813px;
+  height: 205px;
+  left: 334px;
+  top: 638px;
+  
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  
+  .userComment{
+  
+    position: absolute;
+  width: 264px;
+  height: 551px;
+  left: 1167px;
+  top: 292px;
+  
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  
+  .preno{
+    position: absolute;
+    width: 182px;
+    height: 40px;
+    left: 50px;
+    top: 25px;
+  }
+  
+  .buttonLogin{
+    position: absolute;
+    width: 95px;
+    height: 30px;
+    left: 1140px;
+    top: 69px;
+    background: #417FA2; 
+    border-radius: 48px;
+  
+    font-family: Rockwell;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  
+  color: #FFFFFF;
+  
+  }
+  
+  /* Share */
+  .buttonShare{
+    position: absolute;
+    width: 95px;
+    height: 30px;
+    left: 1250px;
+    top: 71px;
+    
+    background: #417FA2;
+    border-radius: 69px;
+    border: 1px solid rgb(236, 178, 178);
+  
+    font-family: Rockwell;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  
+  color: #FFFFFF;
+  
+  }
+  .center{
+   
+   position: absolute;
+   width: 1401px;
+   height: 648px;
+   left: 31px;
+   top: 181px;
+  
+   background: #FFFFFF;
+  }
+  
+  .rectangle1{
+    position: absolute;
+    width: 270px;
+    height: 250px;
+    left: 153px;
+    top: 235px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+  
+    
+  }
+  .rectangle2{
+  
+    /* Rectangle 12 */
+  
+  
+  position: absolute;
+  width: 270px;
+  height: 250px;
+  left: 488px;
+  top: 222px;
+  
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  
+  .rectangle3{
+  /* Rectangle 15 */
+  
+  
+  position: absolute;
+  width: 270px;
+  height: 250px;
+  left: 801px;
+  top: 224px;
+  
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  
+  
+  }
+  
+  .rectangle4{
+    /* Rectangle 16 */
+  
+  
+  position: absolute;
+  width: 270px;
+  height: 250px;
+  left: 1114px;
+  top: 222px;
+  
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  
+  
+  }
+  
+  .rectangle5{
+    /* Rectangle 59 */
+  
+  
+  position: absolute;
+  width: 270px;
+  height: 250px;
+  left: 148px;
+  top: 535px;
+  
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  
+  }
+  
+  .rectangle6{
+    /* Rectangle 61 */
+  
+  
+  position: absolute;
+  width: 270px;
+  height: 250px;
+  left: 495px;
+  top: 526px;
+  
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  
+  }
+  
+  .rectangle7{
+    /* Rectangle 62 */
+  
+  
+  position: absolute;
+  width: 270px;
+  height: 250px;
+  left: 807px;
+  top: 529px;
+  
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  
+  }
+  .rectangle8{
+    /* Rectangle 21 */
+  
+  
+  position: absolute;
+  width: 270px;
+  height: 250px;
+  left: 1114px;
+  top: 537px;
+  
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  
+  
+  h3{
+    align-content: center;
+    text-align: center;
+    font-family: Rockwell;
+    font-style: normal;
+    font-weight: normal;
+  }
+  p{
+    align-content: center;
+    text-align: center;
+    color: #417FA2;
+    font-family: Rockwell;
+    font-style: normal;
+    font-weight: normal;
+  }
+  
+  /*Center a picture inside the div*/
+  .pageCenter {
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 600px;
+      float: none;
+      border: 1px solid rgb(140, 72, 250); /* Added red border to see the div better */
+  }
+  
+  .headerContainer img {
+      display: block;
+      margin: 0 auto;
+      width: auto;
+  }
+  .menuDiv{
+    position: absolute;
+  width: 520px;
+  height: 67px;
+  left: 550px;
+  top: 45px;
+  
+  
+  }
+  
+  
+ 
+  
+  
+  .nom{
+    position: absolute;
+  width: 233px;
+  height: 35px;
+  left:35px;
+  top: 40px;
+  }
+  
+  .footer{  
+    position: absolute;
+  width: 1457px;
+  height: 193px;
+  left: -9px;
+  top: 843px;
+  
+  background: #46A99D;
+  }
+  
+  .footerDiv1{
+    position: absolute;
+  width: 185px;
+  height: 112px;
+  left: 48px;
+  top: 905px;
+  }
+  .footerDiv2{
+    position: absolute;
+    width: 214px;
+    height: 94px;
+    left: 377px;
+    top: 916px;
+  }
+  
+  .footerDiv3{
+    position: absolute;
+    width: 225px;
+    height: 92px;
+    left: 760px;
+    top: 918px;
+  }
+  .footerDiv4{
+    position: absolute;
+    width: 237px;
+    height: 88px;
+    left: 1131px;
+    top: 918px;
+  }
+  .backgroundWindow{
+    position: absolute;
+    width: 1439px;
+    height: 705px;
+    left: 0px;
+    top: 140px;
+    
+    background: #9a9b9b;
+  }
+
+
+
+
+/*Contact form*/
+.contactBackground{
+    position: absolute;
+  width: 1440px;
+  height: 733px;
+  left: -2px;
+  top: 168px;
+  
+  background: #C4C4C4;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  
+  }
+  .contactFormDiv{
+    position: absolute;
+  width: 862px;
+  height: 563px;
+  left: 270px;
+  top: 90px;
+  
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 24px;
+  }
+  
+  .contactPhotoDiv1{
+    position: absolute;
+  width: 151px;
+  height: 150px;
+  left: 601px;
+  top: 10px;
+  
+  background: rgba(131, 69, 132, 0.72);
+  border-radius: 81px;
+  }
+  .contactPhotoDiv2{
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    left: 15px;
+    top: 8px;
+    
+    background: #F2FDFF;
+    border-radius: 73px;
+  }
+  
+  .fnameLabel{
+    position: absolute;
+  width: 62px;
+  height: 15px;
+  left: 150px;
+  top: 100px;
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  
+  color: #000000;
+  }
+  .fnameText{
+  
+    position: absolute;
+    width: 571px;
+    height: 60px;
+    left: 150px;
+    top: 130px;
+    
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 6px;
+  }
+  
+  .emailLabel{
+    position: absolute;
+    width: 48px;
+    height: 15px;
+    left: 150px;
+    top: 200px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    
+    color: #000000;
+  }
+  .emailText{
+    position: absolute;
+    width: 571px;
+    height: 60px;
+    left: 150px;
+    top: 230px;
+    
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 6px;
+  }
+  
+  .messageLabel{
+    position: absolute;
+    width: 81px;
+    height: 15px;
+    left: 140px;
+    top: 300px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    
+    color: #000000;
+    
+  }
+  .messageText{
+    position: absolute;
+    width: 571px;
+    height: 139px;
+    left: 150px;
+    top: 330px;
+    
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 6px;
+  }
+  .sendButton{
+    position: absolute;
+    width: 571px;
+    height: 54px;
+    left: 150px;
+    top: 490px;
+    
+    background: #4989C5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 24px;
+  }
+  
+  .signUp{
+    position: absolute;
+  width: 321px;
+  height: 55px;
+  left: 514px;
+  top: 615px;
+  
+  background: #FFFFFF;
+  border: 1px solid #3486B4;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 35px;
+  }
+
+
+
+  /*footer
+  
+  */
+
+  .footerFull{
+    position: absolute;
+    width: 1440px;
+    height: 160px;
+    left: 0px;
+    top: 852px;
+    
+    background:  #46A99D;
+  }
+  
+  .column {
+    float: left;
+    width: 20.33%;
+    padding: 15px;
+    font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+  
+  
+  color: #FFFFFF;
+  
+  }
+  
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+  @media screen and (max-width:600px) {
+    .column {
+      width: 100%;
+    }
+  
+    .no-bullets {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .div.bar { 
+      margin:5px; 
+      padding:5px; 
+      background-color: green; 
+      width: 500px; 
+      height: 50px; 
+      overflow: auto; 
+      text-align:justify; 
+  } 
+  }
