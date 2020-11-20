@@ -1,0 +1,103 @@
+
+.logo { 
+    display: flex;
+    background-color: #6C00C0;
+    width: 100%;
+    height: 20%; 
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+
+  }
+
+ 
+ 
+  .left{
+      position: absolute;
+      display: flex;
+      background:#020202;
+      width: 12%;
+      height: 550px;
+      top: 135px;      
+      align-content: center;
+      color: white;
+      font-weight: bold;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .right{
+    position: absolute;
+    display: flex;
+    width: 87%;
+    height: 550px;
+    left: 168px;
+    top: 135px;
+    
+    background: #FFDE69;
+  }
+  
+  .btn{
+      padding: 30px 60px;
+      margin: 20% 40%;
+      font-size: 30px;
+      background-color: #FFDE69;
+      border-radius: 3px solide ;
+      border-color: #020202;
+  }
+
+  .p{
+        display:flex;
+        font-weight: bold;
+        align-content: center;
+        top: 255px;
+        margin: 50px;
+        position: relative;
+    }
+    .h1 {
+        display: flex;
+        font-size: 15px;
+        margin-left: 50%;
+        color: white;
+        margin-top: 4%;
+       
+     }
+   
+     @media all and (min-width:600px){
+         .logo{
+             width:100% ;
+             height: 15%;
+         }
+
+
+         .left{
+             margin-top: 90%;
+             width: 100%;
+             height: 20%;
+             font-size: 54px;
+             align-items: flex-end;
+             top: 700px;
+         }
+
+
+         .right{
+             height: 77%;
+             width: 100%;
+             left: 0px;
+             top: 250px;
+         }
+         .btn{
+           padding: 0px 10px 10px 30px;
+          
+            font-size: 30px;
+            border-radius: 3px solide ;
+            border-color: #020202;
+         }
+         h1{
+             font-size: 18px;
+             font-weight: bold;
+             margin-top: 4%;
+             
+         }
+     }
+
+    
